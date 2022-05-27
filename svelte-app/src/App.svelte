@@ -1,10 +1,4 @@
 <script>
-	import Header from './components/Header.svelte'
-	import Timer from './components/Timer.svelte'
+    import Todo from './components/Todo.svelte';
 </script>
-
-<h1>
-	TEST
-</h1>
-<Header/>
-<Timer/>
+<Todo project={"To-Do-List"}/>
